@@ -6,7 +6,7 @@ namespace Lista4
     public class atividade8
     {
         public static void rodar() {
-            Console.Write("Digite um valor inteiro e positivo: ");
+            Console.Write("Digite um valor inteiro positivo: ");
             int n = int.Parse(Console.ReadLine());
             double s = CalculaS(n);
             Console.WriteLine("S = " + s);
