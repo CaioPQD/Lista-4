@@ -10,7 +10,7 @@ namespace Lista4
             try{
                 while (true)
                 {
-                    Console.WriteLine("Digite N a qualuqer momento para sair");
+                    Console.WriteLine("Digite N a qualquer momento para sair");
                     Console.WriteLine("Digite o valor de x: ");
                     x = double.Parse(Console.ReadLine());
                     Console.WriteLine("Digite o valor de y: ");
