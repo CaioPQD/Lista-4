@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace Lista4
 {
@@ -10,7 +8,7 @@ namespace Lista4
 
         public static void rodar(){
 
-            Console.WriteLine("Ddigite squantos conjuntos serao digitao: ");
+            Console.WriteLine("Digite quantos conjuntos serao digitados: ");
             int conjunto = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite quantos numeros serao digitados por conjunto: ");
